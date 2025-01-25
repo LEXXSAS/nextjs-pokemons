@@ -19,6 +19,6 @@ replace your-dbuser-password
 on your  
 > DATABASE_URL="postgresql://your-dbuser-name:your-dbuser-password@localhost:5432/pokemons?schema=public"
 >
-next
-command "npm install"
+next  
+command "npm install"  
 after "npm run dev"
