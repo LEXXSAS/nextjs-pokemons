@@ -13,7 +13,7 @@ add in .env.local
 > NEXTAUTH_SECRET=your_secret_word\
 > NEXT_PUBLIC_BASE_URL=https://pokeapi.co/api/v2
 >
-add in .env
+add in .env  
 DATABASE_URL="postgresql://your-dbuser-name:your-dbuser-password@localhost:5432/pokemons?schema=public"
 >
 next
