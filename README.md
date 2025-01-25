@@ -14,7 +14,10 @@ add in .env.local
 > NEXT_PUBLIC_BASE_URL=https://pokeapi.co/api/v2
 >
 add in .env  
-DATABASE_URL="postgresql://your-dbuser-name:your-dbuser-password@localhost:5432/pokemons?schema=public"
+replace your-dbuser-name  
+replace your-dbuser-password  
+on your  
+> DATABASE_URL="postgresql://your-dbuser-name:your-dbuser-password@localhost:5432/pokemons?schema=public"
 >
 next
 command "npm install"
